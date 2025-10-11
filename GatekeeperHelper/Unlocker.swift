@@ -253,7 +253,7 @@ struct Unlocker {
             alert.informativeText = "未能给予.command文件正确的执行权限。你可拷贝该指令进入终端手动执行：\n\(command)"
             alert.addButton(withTitle: "好")
             alert.addButton(withTitle: "拷贝指令")
-            let response = alert.runModal()
+            let response = alert.runModalWithSystemStyle()
             if response == .alertSecondButtonReturn {
                 copyToPasteboard(command)
             }
@@ -271,7 +271,7 @@ struct Unlocker {
         alert.informativeText = "已给予.command文件正确的执行权限，你可尝试重新运行。\n若仍然没有正确的执行权限，你可拷贝该指令进入终端手动执行：\n\(command)"
         alert.addButton(withTitle: "好")
         alert.addButton(withTitle: "拷贝指令")
-        let response = alert.runModal()
+        let response = alert.runModalWithSystemStyle()
         if response == .alertSecondButtonReturn {
             copyToPasteboard(command)
         }
@@ -306,7 +306,7 @@ struct Unlocker {
         alert.messageText = title
         alert.informativeText = message
         alert.addButton(withTitle: buttonText)
-        alert.runModal()
+        alert.runModalWithSystemStyle()
     }
 
     static func copyToPasteboard(_ string: String) {

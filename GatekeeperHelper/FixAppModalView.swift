@@ -102,7 +102,7 @@ struct FixAppModalView: View {
                             点击“好”将立即为你打开设置界面。
                             """
                             alert.addButton(withTitle: "好")
-                            alert.runModal()
+                            alert.runModalWithSystemStyle()
 
                             if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy") {
                                 NSWorkspace.shared.open(url)
