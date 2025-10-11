@@ -557,7 +557,7 @@ struct ContentView: View {
                                     Image(issue.imageName)
                                         .resizable()
                                         .scaledToFit()
-                                        .frame(height: issue.title == "启动软件时一直弹窗输入密码或存储密码/钥匙串" || issue.title == "安装 Adobe软件时运行 Install文件后报错" ? 170 : 220)
+                                        .frame(height: issue.title == "启动软件时一直弹窗输入密码或存储密码/钥匙串" || issue.title == "安装 Adobe软件时运行 Install文件后报错" ? 170 : issue.title == "XXX已损坏，无法打开。您应该推出磁盘映像/移到废纸篓" ? 180 : 220)
                                         .frame(maxWidth: .infinity)
 
                                     Divider()
@@ -570,6 +570,9 @@ struct ContentView: View {
                                             Text("如果你之前使用过“永久禁用”选项，可一键恢复 Gatekeeper：")
                                                 .font(.callout)
                                                 .foregroundColor(.secondary)
+                                                .lineLimit(nil)
+                                                .fixedSize(horizontal: false, vertical: true)
+                                                .layoutPriority(1)
                                             Spacer()
                                             Button("恢复 Gatekeeper") {
                                                 Unlocker.restoreGatekeeper()
