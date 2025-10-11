@@ -10,16 +10,27 @@ extension NSAlert {
                 button.keyEquivalent = index == 0 ? "\r" : ""
                 if index == 0 {
                     button.bezelColor = .controlAccentColor
-                    button.contentTintColor = .white
                 } else {
                     button.bezelColor = nil
-                    button.contentTintColor = .labelColor
                 }
             }
         } else {
             buttons.first?.keyEquivalent = "\r"
         }
-    }
+
+        for (index, button) in buttons.enumerated() {
+            let paragraphStyle = NSMutableParagraphStyle()
+            paragraphStyle.alignment = button.alignment
+            let textColor: NSColor = index == 0 ? .white : .labelColor
+            let attributes: [NSAttributedString.Key: Any] = [
+                .foregroundColor: textColor,
+                .paragraphStyle: paragraphStyle
+            ]
+            let attributedTitle = NSAttributedString(string: button.title, attributes: attributes)
+            button.attributedTitle = attributedTitle
+            button.attributedAlternateTitle = attributedTitle
+        }
+    } 
 
     @discardableResult
     func runModalWithSystemStyle() -> NSApplication.ModalResponse {
