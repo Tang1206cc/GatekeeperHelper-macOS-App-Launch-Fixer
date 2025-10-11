@@ -35,13 +35,11 @@ struct KeychainFixView: View {
 
                     Text("1.在桌面上点击顶部导航菜单内的“前往”，并按住 Option键，点击打开弹出的“资源库”。\n2.在资源库中找到并打开Keychains文件夹，仔细查找里面有没有相关应用名称的文件/钥匙串。假设遇到问题的软件为B站，就在其中找所有带有“bilibili”字样的文件/钥匙串，将其全部删除后重启电脑即可。\n3.重启后再次打开软件如果提示创建新的钥匙串，则创建即可，不提示就忽略此步骤。")
 
-                    Rectangle()
-                        .fill(Color.gray.opacity(0.1))
-                        .frame(height: 180)
-                        .overlay(
-                            Text("【图片占位】")
-                                .foregroundColor(.gray)
-                        )
+                    Image("detail12")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxWidth: .infinity)
+                        .cornerRadius(8)
                 }
                 .font(.body)
             }

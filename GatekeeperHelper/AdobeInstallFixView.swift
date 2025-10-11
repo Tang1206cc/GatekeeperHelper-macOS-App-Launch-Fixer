@@ -34,13 +34,6 @@ struct AdobeInstallFixView: View {
 
                     Text("1. 打开用于安装Adobe软件的磁盘映像（dmg）或安装包，找到“Install”文件，选中并右击选择“显示包内容”。\n2. 在包内「Contents-MacOS」找到Install的Unix可执行文件并双击。\n3. 之后就可以正常执行安装了。")
 
-                    Rectangle()
-                        .fill(Color.gray.opacity(0.1))
-                        .frame(height: 180)
-                        .overlay(
-                            Text("【图片占位】")
-                                .foregroundColor(.gray)
-                        )
                 }
                 .font(.body)
             }
