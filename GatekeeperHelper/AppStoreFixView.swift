@@ -35,13 +35,11 @@ struct AppStoreFixView: View {
 
                     Text("1. 打开「系统设置」→「隐私与安全性」。\n2. 滚动到底部，在“安全性-允许以下来源的应用程序”处选择“App Store与已知开发者”后输入密码确认修改。\n3. 完成调整后即可运行相应App。\n\n你也可通过本软件第一个App启动问题中的“永久禁用Gatekeeper”功能，获得把该设置改为“任何来源”的权限。否则，Apple出于安全考虑,不会直接展示此选项。")
 
-                    Rectangle()
-                        .fill(Color.gray.opacity(0.1))
-                        .frame(height: 180)
-                        .overlay(
-                            Text("【图片占位】展示设置中“App Store与已知开发者”选项位置")
-                                .foregroundColor(.gray)
-                        )
+                    Image("detail8")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxWidth: .infinity)
+                        .cornerRadius(8)
                 }
                 .font(.body)
             }
