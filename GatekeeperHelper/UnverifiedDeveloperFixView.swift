@@ -33,7 +33,7 @@ struct UnverifiedDeveloperFixView: View {
 
                     Text("解决方式如下：")
 
-                    Text("1.右键点击对应App，选择打开，连续操作两次。\n2.再在访达中对应位置找到软件，选中并右击 打开。\n3.完成上述以后，之后就可以通过双击打开软件了。")
+                    Text("1.右键点击对应App，选择打开，连续操作两次。\n2.再在访达中对应位置找到软件，选中并右击打开。\n3.完成上述以后，之后就可以通过双击打开软件了。")
 
                     Rectangle()
                         .fill(Color.gray.opacity(0.1))
