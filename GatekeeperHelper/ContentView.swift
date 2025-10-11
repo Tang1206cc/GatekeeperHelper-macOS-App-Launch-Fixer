@@ -570,6 +570,9 @@ struct ContentView: View {
                                             Text("如果你之前使用过“永久禁用”选项，可一键恢复 Gatekeeper：")
                                                 .font(.callout)
                                                 .foregroundColor(.secondary)
+                                                .lineLimit(nil)
+                                                .fixedSize(horizontal: false, vertical: true)
+                                                .layoutPriority(1)
                                             Spacer()
                                             Button("恢复 Gatekeeper") {
                                                 Unlocker.restoreGatekeeper()
