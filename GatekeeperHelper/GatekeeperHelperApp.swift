@@ -10,6 +10,7 @@ struct GatekeeperHelperApp: App {
             ContentView()
                 .frame(minWidth: 1020, minHeight: 580)
                 .preferredColorScheme(currentColorScheme)
+                .macOS26RoundedWindowStyle()
         }
         .defaultSize(width: 1120, height: 775)
         .windowStyle(DefaultWindowStyle())

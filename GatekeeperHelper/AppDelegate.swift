@@ -99,6 +99,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.center()
         window.title = "偏好设置"
         window.isReleasedWhenClosed = false
+        RoundedWindowStyleModifier.configure(window: window)
         window.contentView = NSHostingView(rootView: SettingsView())
         window.makeKeyAndOrderFront(nil)
         NSApp.activate(ignoringOtherApps: true)
