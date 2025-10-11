@@ -572,6 +572,9 @@ struct ContentView: View {
                                                 .foregroundColor(.secondary)
                                                 .multilineTextAlignment(.leading)
                                                 .fixedSize(horizontal: false, vertical: true)
+
+                                                .frame(maxWidth: .infinity, alignment: .leading)
+
                                                 .layoutPriority(1)
                                             Spacer()
                                             Button("恢复 Gatekeeper") {
