@@ -98,6 +98,8 @@ struct ContentView: View {
     @State private var selectedAppURL: URL? = nil
     @State private var selectedUnlockMethod: UnlockMethod = .xattr
 
+    @Namespace private var selectionNamespace
+
     @State private var showSIPSheet = false
     @State private var showDonateSheet = false
     @State private var showFeedbackSheet = false
@@ -151,23 +153,56 @@ struct ContentView: View {
                 Divider()
 
                 HStack(spacing: 0) {
-                    List(selection: $selectedIssue) {
-                        ForEach(knownIssues) { issue in
-                            Text(issue.title)
-                                .font(.system(size: 15, weight: .semibold))
-                                .padding(.vertical, 8)
-                                .padding(.horizontal, 12)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .background(
-                                    RoundedRectangle(cornerRadius: 6)
-                                        .fill(selectedIssue == issue ? Color.accentColor.opacity(0.2) : Color.clear)
-                                )
-                                .contentShape(Rectangle())
-                                .tag(issue)
+                    ZStack(alignment: .topLeading) {
+                        RoundedRectangle(cornerRadius: 24, style: .continuous)
+                            .fill(.ultraThinMaterial)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 24, style: .continuous)
+                                    .stroke(Color.white.opacity(0.35), lineWidth: 0.8)
+                            )
+                            .shadow(color: Color.black.opacity(0.18), radius: 18, x: 0, y: 12)
+
+                        ScrollView {
+                            LazyVStack(alignment: .leading, spacing: 10) {
+                                ForEach(knownIssues) { issue in
+                                    Button {
+                                        withAnimation(.spring(response: 0.45, dampingFraction: 0.82, blendDuration: 0.35)) {
+                                            selectedIssue = issue
+                                        }
+                                    } label: {
+                                        ZStack(alignment: .leading) {
+                                            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                                                .fill(Color.white.opacity(0.05))
+
+                                            if selectedIssue == issue {
+                                                RoundedRectangle(cornerRadius: 18, style: .continuous)
+                                                    .fill(.regularMaterial)
+                                                    .overlay(
+                                                        RoundedRectangle(cornerRadius: 18, style: .continuous)
+                                                            .stroke(Color.white.opacity(0.55), lineWidth: 1.0)
+                                                    )
+                                                    .shadow(color: Color.black.opacity(0.22), radius: 16, x: 0, y: 10)
+                                                    .matchedGeometryEffect(id: "selectionBackground", in: selectionNamespace)
+                                            }
+
+                                            Text(issue.title)
+                                                .font(.system(size: 15, weight: .semibold))
+                                                .foregroundColor(.primary)
+                                                .padding(.vertical, 12)
+                                                .padding(.horizontal, 18)
+                                                .frame(maxWidth: .infinity, alignment: .leading)
+                                        }
+                                    }
+                                    .buttonStyle(.plain)
+                                }
+                            }
+                            .padding(16)
                         }
+                        .scrollIndicators(.never)
                     }
-                    .frame(minWidth: 280)
-                    .listStyle(SidebarListStyle())
+                    .frame(minWidth: 280, maxWidth: 320)
+                    .padding(.leading, 24)
+                    .padding(.vertical, 18)
 
                     Divider()
 
