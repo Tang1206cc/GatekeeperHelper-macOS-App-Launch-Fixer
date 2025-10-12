@@ -106,5 +106,3 @@ struct SettingsView: View {
             Toggle("按 Esc 键退出 GatekeeperHelper", isOn: $escToQuit)
             Toggle("关闭最后一个窗口时退出 GatekeeperHelper", isOn: $quitWhenLastWindowClosed)
         }
-    }
-}
