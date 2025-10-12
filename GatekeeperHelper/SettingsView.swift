@@ -16,8 +16,10 @@ struct SettingsView: View {
 
         var title: String {
             switch self {
-            case .general: return "通用"
-            case .updates: return "软件更新"
+            case .general:
+                return "通用"
+            case .updates:
+                return "软件更新"
             }
         }
     }
@@ -81,28 +83,25 @@ struct SettingsView: View {
                     AppSettings.applyLaunchAtLogin(value)
                 }
 
-                    Text("⚠️ 可能仅在 macOS 13 及以上系统生效")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                        .padding(.leading, 4)
+            Text("⚠️ 可能仅在 macOS 13 及以上系统生效")
+                .font(.caption)
+                .foregroundColor(.gray)
+                .padding(.leading, 4)
 
-                    HStack {
-                        Text("主题模式")
-                        Picker("", selection: $themeMode) {
-                            ForEach(ThemeMode.allCases) { mode in
-                                Text(mode.displayName).tag(mode.rawValue)
-                            }
-                        }
-                        .labelsHidden()
-                        .pickerStyle(SegmentedPickerStyle())
-                        .frame(maxWidth: 220)
+            HStack {
+                Text("主题模式")
+                Picker("", selection: $themeMode) {
+                    ForEach(ThemeMode.allCases) { mode in
+                        Text(mode.displayName).tag(mode.rawValue)
                     }
                 }
                 .labelsHidden()
-                .pickerStyle(.segmented)
+                .pickerStyle(SegmentedPickerStyle())
                 .frame(maxWidth: 220)
             }
 
             Toggle("按 Esc 键退出 GatekeeperHelper", isOn: $escToQuit)
             Toggle("关闭最后一个窗口时退出 GatekeeperHelper", isOn: $quitWhenLastWindowClosed)
         }
+    }
+}
