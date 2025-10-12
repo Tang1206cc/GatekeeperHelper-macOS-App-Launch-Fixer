@@ -8,14 +8,70 @@
 import SwiftUI
 
 struct SettingsView: View {
+    private enum SettingsSection: String, CaseIterable, Identifiable {
+        case general
+        case updates
+
+        var id: Self { self }
+
+        var title: String {
+            switch self {
+            case .general: return "通用"
+            case .updates: return "软件更新"
+            }
+        }
+    }
+
     @AppStorage("launchAtLogin") private var launchAtLogin = false
     @AppStorage("themeMode") private var themeMode = ThemeMode.system.rawValue
     @AppStorage("escToQuit") private var escToQuit = false
     @AppStorage("quitWhenLastWindowClosed") private var quitWhenLastWindowClosed = true
+    @State private var selectedSection: SettingsSection = .general
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("偏好设置")
+        VStack(alignment: .leading, spacing: 16) {
+            Picker("设置分区", selection: $selectedSection) {
+                ForEach(SettingsSection.allCases) { section in
+                    Text(section.title).tag(section)
+                }
+            }
+            .pickerStyle(.segmented)
+
+            Divider()
+
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    if selectedSection == .general {
+                        generalSection
+                    } else {
+                        UpdateSettingsView()
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top, 8)
+            }
+
+            Spacer()
+
+            HStack {
+                Button("恢复默认设置") {
+                    AppSettings.reset()
+                    launchAtLogin = false
+                    themeMode = ThemeMode.system.rawValue
+                    escToQuit = false
+                    quitWhenLastWindowClosed = true
+                    UpdatePreferences().reset()
+                }
+                Spacer()
+            }
+        }
+        .padding(24)
+        .frame(width: 520, height: 520, alignment: .topLeading)
+    }
+
+    private var generalSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("通用")
                 .font(.title2)
                 .bold()
             Divider()
@@ -38,25 +94,12 @@ struct SettingsView: View {
                     }
                 }
                 .labelsHidden()
-                .pickerStyle(SegmentedPickerStyle())
+                .pickerStyle(.segmented)
                 .frame(maxWidth: 220)
             }
 
             Toggle("按 Esc 键退出 GatekeeperHelper", isOn: $escToQuit)
             Toggle("关闭最后一个窗口时退出 GatekeeperHelper", isOn: $quitWhenLastWindowClosed)
-
-            Spacer()
-
-            Button("恢复默认设置") {
-                AppSettings.reset()
-                launchAtLogin = false
-                themeMode = ThemeMode.system.rawValue
-                escToQuit = false
-                quitWhenLastWindowClosed = true
-            }
-            .padding(.bottom, 8)
         }
-        .padding(24)
-        .frame(width: 480, height: 350, alignment: .topLeading)
     }
 }
