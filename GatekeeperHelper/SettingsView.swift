@@ -81,16 +81,21 @@ struct SettingsView: View {
                     AppSettings.applyLaunchAtLogin(value)
                 }
 
-            Text("⚠️ 可能仅在 macOS 13 及以上系统生效")
-                .font(.caption)
-                .foregroundColor(.gray)
-                .padding(.leading, 4)
+                    Text("⚠️ 可能仅在 macOS 13 及以上系统生效")
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                        .padding(.leading, 4)
 
-            HStack {
-                Text("主题模式")
-                Picker("", selection: $themeMode) {
-                    ForEach(ThemeMode.allCases) { mode in
-                        Text(mode.displayName).tag(mode.rawValue)
+                    HStack {
+                        Text("主题模式")
+                        Picker("", selection: $themeMode) {
+                            ForEach(ThemeMode.allCases) { mode in
+                                Text(mode.displayName).tag(mode.rawValue)
+                            }
+                        }
+                        .labelsHidden()
+                        .pickerStyle(SegmentedPickerStyle())
+                        .frame(maxWidth: 220)
                     }
                 }
                 .labelsHidden()

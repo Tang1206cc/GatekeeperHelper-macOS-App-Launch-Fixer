@@ -1,0 +1,12 @@
+{
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AdobeInstallFixView.swift" : {
+    "abi-baseline-json" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper.abi.json",
+    "const-values" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.swiftconstvalues",
+    "dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.d",
+    "diagnostics" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.dia",
+    "objc-header" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-Swift.h",
+    "swiftdoc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper.swiftdoc",
+    "swiftmodule" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper.swiftmodule",
+    "swiftsourceinfo" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper.swiftsourceinfo"
+  }
+}

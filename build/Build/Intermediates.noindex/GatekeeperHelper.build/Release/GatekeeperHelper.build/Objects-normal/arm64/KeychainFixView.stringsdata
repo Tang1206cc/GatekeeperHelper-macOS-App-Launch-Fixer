@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/KeychainFixView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "部分信息与素材转载于https://foxirj.com及其他网站。GatekeeperHelper开源免费，仅供学习交流，侵权请联系删除。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方案：启动软件时一直弹窗输入密码或存储密码/钥匙串",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "这是因为Mac密码/钥匙串功能错误所导致。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方式如下：",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "1.在桌面上点击顶部导航菜单内的“前往”，并按住 Option键，点击打开弹出的“资源库”。\n2.在资源库中找到并打开Keychains文件夹，仔细查找里面有没有相关应用名称的文件/钥匙串。假设遇到问题的软件为B站，就在其中找所有带有“bilibili”字样的文件/钥匙串，将其全部删除后重启电脑即可。\n3.重启后再次打开软件如果提示创建新的钥匙串，则创建即可，不提示就忽略此步骤。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开Keychains文件夹",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 52
+        }
+      }
+    ]
+  },
+  "version": 1
+}
