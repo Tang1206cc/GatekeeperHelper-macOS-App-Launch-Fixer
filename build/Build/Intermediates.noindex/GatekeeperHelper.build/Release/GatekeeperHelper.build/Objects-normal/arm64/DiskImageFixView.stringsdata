@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/DiskImageFixView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "部分信息与素材转载于https://foxirj.com及其他网站。GatekeeperHelper开源免费，仅供学习交流，侵权请联系删除。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方案：未能打开磁盘映像与磁盘映像已过时",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "这是一种当macOS打开某些磁盘映像（dmg）时的报错现象。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方式如下：",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. command+空格，搜索“磁盘工具”并打开。\n2. 在顶部导航菜单找到“文件”并点击。\n3. 选择“打开磁盘映像”。\n4. 在访达弹窗中选择报错的磁盘映像（dmg）并点击右下角打开。\n5. 之后就可以通过正常方式打开该磁盘映像，若无效可多次重试，一般多打开几次就可以正常使用该映像。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "跳转至磁盘工具",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 51
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AppStoreFixView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "部分信息与素材转载于https://foxirj.com及其他网站。GatekeeperHelper开源免费，仅供学习交流，侵权请联系删除。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方案：无法打开App，因为它不是从App Store下载",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "这是由于macOS的软件来源安全性设置默认是仅允许安装来自「App Store 」的软件，进入设置调整修改即可。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方式如下：",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. 打开「系统设置」→「隐私与安全性」。\n2. 滚动到底部，在“安全性-允许以下来源的应用程序”处选择“App Store与已知开发者”后输入密码确认修改。\n3. 完成调整后即可运行相应App。\n\n你也可通过本软件第一个App启动问题中的“永久禁用Gatekeeper”功能，获得把该设置改为“任何来源”的权限。否则，Apple出于安全考虑,不会直接展示此选项。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "跳转至设置界面",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 52
+        }
+      }
+    ]
+  },
+  "version": 1
+}

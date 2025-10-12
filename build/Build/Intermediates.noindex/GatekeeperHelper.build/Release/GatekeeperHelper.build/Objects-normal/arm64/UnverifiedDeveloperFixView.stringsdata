@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/UnverifiedDeveloperFixView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "部分信息与素材转载于https://foxirj.com及其他网站。GatekeeperHelper开源免费，仅供学习交流，侵权请联系删除。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方案：无法打开App，因为无法验证开发者",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "这是由于虽然macOS的软件安装安全性设置已经允许安装App Store和已知开发者的应用，但由于某些应用不属于“已知开发者”范畴或一系列其他原因，使你仍然看到此类警告",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方式如下：",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "1.右键点击对应App，选择打开，连续操作两次。\n2.再在访达中对应位置找到软件，选中并右击打开。\n3.完成上述以后，之后就可以通过双击打开软件了。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "跳转至访达界面",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 52
+        }
+      }
+    ]
+  },
+  "version": 1
+}

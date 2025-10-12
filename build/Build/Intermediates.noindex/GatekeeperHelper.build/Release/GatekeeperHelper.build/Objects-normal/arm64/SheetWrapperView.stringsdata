@@ -1,0 +1,240 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/SheetWrapperView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "感谢您的支持 ❤️",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "您的鼓励是我持续优化 GatekeeperHelper 的最大动力！\n\n如果这个工具对您有所帮助，欢迎通过以下方式打赏支持。",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "微信",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "支付宝",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "关闭系统完整性保护（SIP）",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "⚠️ 请谨慎操作！非必要不要关闭 SIP。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "确保您是在主页所有选项都尝试过后仍然无法解决 App 启动问题，才使用此方法。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "📘 什么是 SIP？",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "SIP（System Integrity Protection）是 Apple 自 OS X 10.11 起引入的一项安全机制，用于防止恶意软件修改系统文件。关闭 SIP 后，您将获得对 macOS 系统更深层级的控制权限，但也会增加系统风险。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "📌 为什么要关闭 SIP？",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "在 macOS 11 Big Sur 之前，关闭 SIP 可用于降级或删除预装 App（如 iTunes、Safari 等）。现在，它主要用于让部分修改过的 App（如破解软件、未签名工具）正常运行。\n\n如果您的 App 无法通过 xattr 或 codesign 解锁，请尝试关闭 SIP。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "🔍 如何判断当前是否关闭 SIP？",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "❌ 如何关闭 SIP",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "注意：必须进入“恢复模式”才能关闭 SIP，且操作中可能需要输入 y/n 确认，务必仔细阅读终端提示。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "🔧 步骤：",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "1）进入恢复模式：\n   - Intel 机型：重启时按住 Command + R，直到出现 Apple 标志。\n   - Apple Silicon 机型：关机后，长按电源按钮直到出现“选项”，进入恢复模式。\n\n2）在菜单栏选择“实用工具” > 打开“终端”\n\n3）执行以下命令：",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "如果提示 [y/n]，请输入 y 并回车；提示Password或出现小钥匙图标时输入电脑开机密码即可，输入过程不可见，确保正确输入后按下回车键即可。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "4）重启电脑以完成操作：",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "✅ 如何重新开启 SIP",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "重复步骤1-2后，在“终端”输入以下命令：\n\n如果提示 [y/n]，同样输入 y 并回车。",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "然后再次执行：",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "⚠️ 没有特殊需要，不要禁用 SIP！",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "一键判断",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "联系与反馈",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "如果您在使用过程中遇到问题，或有任何建议，欢迎通过以下方式联系我：",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "B站：昵称待定（UID:3632305813850646）「点击可打开」",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 176
+        }
+      },
+      {
+        "comment": "",
+        "key": "邮箱：1767707905@qq.com",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "QQ 讨论群：850780538",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "GitHub 项目仓库：https://github.com/Tang1206cc/GatekeeperHelper",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 184
+        }
+      }
+    ]
+  },
+  "version": 1
+}

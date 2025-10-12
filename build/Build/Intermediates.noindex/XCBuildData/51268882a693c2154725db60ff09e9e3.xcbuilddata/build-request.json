@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "313a4f369d027f3dc57414710a28b5c4e2ad1038aebfade509071d21891b32c2"
+    }
+  ],
+  "containerPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx26.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Products",
+      "derivedDataPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build",
+      "indexDataStoreFolderPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
