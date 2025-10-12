@@ -8,24 +8,78 @@
 import SwiftUI
 
 struct SettingsView: View {
+    private enum SettingsSection: String, CaseIterable, Identifiable {
+        case general
+        case updates
+
+        var id: Self { self }
+
+        var title: String {
+            switch self {
+            case .general: return "通用"
+            case .updates: return "软件更新"
+            }
+        }
+    }
+
     @AppStorage("launchAtLogin") private var launchAtLogin = false
     @AppStorage("themeMode") private var themeMode = ThemeMode.system.rawValue
     @AppStorage("escToQuit") private var escToQuit = false
     @AppStorage("quitWhenLastWindowClosed") private var quitWhenLastWindowClosed = true
+    @State private var selectedSection: SettingsSection = .general
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 24) {
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("偏好设置")
-                        .font(.title2)
-                        .bold()
-                    Divider()
+        VStack(alignment: .leading, spacing: 16) {
+            Picker("设置分区", selection: $selectedSection) {
+                ForEach(SettingsSection.allCases) { section in
+                    Text(section.title).tag(section)
+                }
+            }
+            .pickerStyle(.segmented)
 
-                    Toggle("开机自启动", isOn: $launchAtLogin)
-                        .onChange(of: launchAtLogin) { value in
-                            AppSettings.applyLaunchAtLogin(value)
-                        }
+            Divider()
+
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    if selectedSection == .general {
+                        generalSection
+                    } else {
+                        UpdateSettingsView()
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top, 8)
+            }
+
+            Spacer()
+
+            HStack {
+                Button("恢复默认设置") {
+                    AppSettings.reset()
+                    launchAtLogin = false
+                    themeMode = ThemeMode.system.rawValue
+                    escToQuit = false
+                    quitWhenLastWindowClosed = true
+                    UpdatePreferences().reset()
+                }
+                Spacer()
+            }
+        }
+        .padding(24)
+        .frame(width: 520, height: 520, alignment: .topLeading)
+    }
+
+    private var generalSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text("通用")
+                .font(.title2)
+                .bold()
+            Divider()
+
+            Toggle("开机自启动", isOn: $launchAtLogin)
+                .onChange(of: launchAtLogin) { value in
+                    AppSettings.applyLaunchAtLogin(value)
+                }
 
                     Text("⚠️ 可能仅在 macOS 13 及以上系统生效")
                         .font(.caption)
@@ -43,25 +97,14 @@ struct SettingsView: View {
                         .pickerStyle(SegmentedPickerStyle())
                         .frame(maxWidth: 220)
                     }
-
-                    Toggle("按 Esc 键退出 GatekeeperHelper", isOn: $escToQuit)
-                    Toggle("关闭最后一个窗口时退出 GatekeeperHelper", isOn: $quitWhenLastWindowClosed)
                 }
-
-                UpdateSettingsView()
-
-                Button("恢复默认设置") {
-                    AppSettings.reset()
-                    launchAtLogin = false
-                    themeMode = ThemeMode.system.rawValue
-                    escToQuit = false
-                    quitWhenLastWindowClosed = true
-                    UpdatePreferences().reset()
-                }
-                .padding(.bottom, 8)
+                .labelsHidden()
+                .pickerStyle(.segmented)
+                .frame(maxWidth: 220)
             }
-            .padding(24)
+
+            Toggle("按 Esc 键退出 GatekeeperHelper", isOn: $escToQuit)
+            Toggle("关闭最后一个窗口时退出 GatekeeperHelper", isOn: $quitWhenLastWindowClosed)
         }
-        .frame(width: 520, height: 520, alignment: .topLeading)
     }
 }
