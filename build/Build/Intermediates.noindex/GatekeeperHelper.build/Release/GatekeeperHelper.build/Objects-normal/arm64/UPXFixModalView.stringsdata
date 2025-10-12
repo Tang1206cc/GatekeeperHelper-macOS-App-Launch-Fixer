@@ -1,0 +1,200 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/UPXFixModalView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "已选择 App",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "确保上面两步执行返回成功后再点击“前往修复”按钮，否则无法真正脱壳解锁",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "第一步：安装Brew工具",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "第二步：安装UPX工具",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "前往修复",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装提示：务必逐条阅读，按下方内容操作完毕再关闭本弹窗",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. 请拷贝下列命令至“终端”执行：",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "2.若终端提示“Checking for sudo access (which may request your password).”，在下方Password处输入电脑密码后回车（输入过程不可见），完成后跟随提示开始下载。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "3.若终端提示“curl: (6) Could not resolve host: gitee.com”说明当前无法访问下载地址，请稍候再试。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "4.若终端提示缺乏命令行工具等相关英文内容，说明Mac当前没有相关配置。稍等片刻后，“设置-通用-软件更新”内就会自动推送相关配置更新，下载安装更新后（不关机更新）即可重试操作。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成上述后，若提示“执行成功”则代表安装成功",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "为你打开“设置”更新界面",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "好，我已完成",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "安装提示：务必逐条阅读，按下方内容操作完毕再关闭本弹窗",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. 请拷贝下列命令至“终端”执行：",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "2.耐心等待下载完毕即可，注意终端返回内容，可多次尝试。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "好，我已完成",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "修复提示：务必逐条阅读，按下方内容操作完毕再关闭本弹窗",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "1.完成最后的脱壳解锁操作，请打开终端输入以下代码，空格一个。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "2.把软件拖到桌面上，右键显示包内容，进入Contents/MacOS中找到 Unix可执行文件（一般和软件名相同的就是，不行就多试几个）。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "3.把找到的Unix可执行文件拖进终端，并回车等待返回即可。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "好，我已完成",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 182
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/FixAppModalView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "已选择文件",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "已选择 App",
+        "location": {
+          "startingColumn": 87,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择解锁方式",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择签名方式",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "立即修复",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 166
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,156 @@
+{
+  "" : {
+    "const-values" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.swiftconstvalues",
+    "dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.d",
+    "diagnostics" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.dia",
+    "emit-module-dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary-emit-module.dia",
+    "pch" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelper-primary.swiftdeps"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AdobeInstallFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AdobeInstallFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AdobeInstallFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AdobeInstallFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AdvancedUnlockMethod.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AdvancedUnlockMethod.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AdvancedUnlockMethod.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AdvancedUnlockMethod.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AppDelegate.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AppPicker.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppPicker.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppPicker.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppPicker.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AppSettings.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppSettings.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppSettings.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppSettings.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AppStoreFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppStoreFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppStoreFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AppStoreFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AuthorizationBridge.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AuthorizationBridge.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AuthorizationBridge.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AuthorizationBridge.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AuthorizationTool.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AuthorizationTool-808035df735693a53cd59e55388a36cf.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AuthorizationTool-808035df735693a53cd59e55388a36cf.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/AuthorizationTool-808035df735693a53cd59e55388a36cf.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/CodeBlock.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/CodeBlock.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/CodeBlock.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/CodeBlock.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/ContentView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/DiskImageFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/DiskImageFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/DiskImageFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/DiskImageFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/DropAreaView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/DropAreaView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/DropAreaView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/DropAreaView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/FixAppModalView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/FixAppModalView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/FixAppModalView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/FixAppModalView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/GatekeeperHelperApp.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelperApp.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelperApp.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GatekeeperHelperApp.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/HistorySheetView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/HistorySheetView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/HistorySheetView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/HistorySheetView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/KeychainFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/KeychainFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/KeychainFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/KeychainFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/MalwareCheckFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/MalwareCheckFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/MalwareCheckFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/MalwareCheckFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/NSAlert+SystemStyle.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/NSAlert+SystemStyle.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/NSAlert+SystemStyle.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/NSAlert+SystemStyle.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/RepairHistory.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/RepairHistory.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/RepairHistory.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/RepairHistory.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/RoundedWindowStyleModifier.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/RoundedWindowStyleModifier.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/RoundedWindowStyleModifier.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/RoundedWindowStyleModifier.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/SIPStatusChecker.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SIPStatusChecker.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SIPStatusChecker.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SIPStatusChecker.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/SecurityPolicyFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SecurityPolicyFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SecurityPolicyFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SecurityPolicyFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/SettingsView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/SheetWrapperView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SheetWrapperView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SheetWrapperView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/SheetWrapperView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/UPXFixModalView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UPXFixModalView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UPXFixModalView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UPXFixModalView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/Unlocker.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/Unlocker.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/Unlocker.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/Unlocker.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/UnverifiedDeveloperFixView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UnverifiedDeveloperFixView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UnverifiedDeveloperFixView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UnverifiedDeveloperFixView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/UpdateSettingsView.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UpdateSettingsView.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UpdateSettingsView.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/UpdateSettingsView.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/GatekeeperHelper.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

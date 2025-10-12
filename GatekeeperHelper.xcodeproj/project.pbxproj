@@ -6,12 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ADA2CA432E9B862F00FDA1D2 /* UpdaterHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADA2C9482E9B7BEA00FDA1D2 /* UpdaterHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA2C9F52E9B85B100FDA1D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADE582202E32673B001EFCA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA2C9472E9B7BEA00FDA1D2;
+			remoteInfo = UpdaterHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADA2C9432E9B7BA000FDA1D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Helpers;
+			dstSubfolderSpec = 1;
+			files = (
+				ADA2CA432E9B862F00FDA1D2 /* UpdaterHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ADA2C9482E9B7BEA00FDA1D2 /* UpdaterHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UpdaterHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE582282E32673B001EFCA0 /* GatekeeperHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatekeeperHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFF25AD2E3352C60036C284 /* GatekeeperHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GatekeeperHelper-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		ADA2C9492E9B7BEA00FDA1D2 /* UpdaterHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UpdaterHelper;
+			sourceTree = "<group>";
+		};
 		ADE5822A2E32673B001EFCA0 /* GatekeeperHelper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GatekeeperHelper;
@@ -20,6 +53,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		ADA2C9452E9B7BEA00FDA1D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADE582252E32673B001EFCA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				ADE5822A2E32673B001EFCA0 /* GatekeeperHelper */,
+				ADA2C9492E9B7BEA00FDA1D2 /* UpdaterHelper */,
 				ADE582292E32673B001EFCA0 /* Products */,
 				ADFF25AD2E3352C60036C284 /* GatekeeperHelper-Bridging-Header.h */,
 			);
@@ -43,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				ADE582282E32673B001EFCA0 /* GatekeeperHelper.app */,
+				ADA2C9482E9B7BEA00FDA1D2 /* UpdaterHelper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +92,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ADA2C9472E9B7BEA00FDA1D2 /* UpdaterHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA2C94C2E9B7BEA00FDA1D2 /* Build configuration list for PBXNativeTarget "UpdaterHelper" */;
+			buildPhases = (
+				ADA2C9442E9B7BEA00FDA1D2 /* Sources */,
+				ADA2C9452E9B7BEA00FDA1D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ADA2C9492E9B7BEA00FDA1D2 /* UpdaterHelper */,
+			);
+			name = UpdaterHelper;
+			packageProductDependencies = (
+			);
+			productName = UpdaterHelper;
+			productReference = ADA2C9482E9B7BEA00FDA1D2 /* UpdaterHelper */;
+			productType = "com.apple.product-type.tool";
+		};
 		ADE582272E32673B001EFCA0 /* GatekeeperHelper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADE582342E32673D001EFCA0 /* Build configuration list for PBXNativeTarget "GatekeeperHelper" */;
@@ -57,10 +120,12 @@
 				ADE582242E32673B001EFCA0 /* Sources */,
 				ADE582252E32673B001EFCA0 /* Frameworks */,
 				ADE582262E32673B001EFCA0 /* Resources */,
+				ADA2C9432E9B7BA000FDA1D2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ADA2C9F62E9B85B100FDA1D2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				ADE5822A2E32673B001EFCA0 /* GatekeeperHelper */,
@@ -79,9 +144,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1640;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
+					ADA2C9472E9B7BEA00FDA1D2 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
 					ADE582272E32673B001EFCA0 = {
 						CreatedOnToolsVersion = 16.4;
 						LastSwiftMigration = 1640;
@@ -103,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				ADE582272E32673B001EFCA0 /* GatekeeperHelper */,
+				ADA2C9472E9B7BEA00FDA1D2 /* UpdaterHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -118,6 +187,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		ADA2C9442E9B7BEA00FDA1D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADE582242E32673B001EFCA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,7 +203,43 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		ADA2C9F62E9B85B100FDA1D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA2C9472E9B7BEA00FDA1D2 /* UpdaterHelper */;
+			targetProxy = ADA2C9F52E9B85B100FDA1D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		ADA2C94D2E9B7BEA00FDA1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79QZ9M2T6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ADA2C94E2E9B7BEA00FDA1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L79QZ9M2T6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		ADE582322E32673D001EFCA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -268,7 +380,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangziyao.GatekeeperHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -299,7 +411,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangziyao.GatekeeperHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -312,6 +424,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ADA2C94C2E9B7BEA00FDA1D2 /* Build configuration list for PBXNativeTarget "UpdaterHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA2C94D2E9B7BEA00FDA1D2 /* Debug */,
+				ADA2C94E2E9B7BEA00FDA1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ADE582232E32673B001EFCA0 /* Build configuration list for PBXProject "GatekeeperHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
