@@ -13,6 +13,13 @@ struct SettingsView: View {
     @AppStorage("escToQuit") private var escToQuit = false
     @AppStorage("quitWhenLastWindowClosed") private var quitWhenLastWindowClosed = true
 
+    private var currentVersionText: String {
+        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String, !version.isEmpty {
+            return "当前版本：v\(version)"
+        }
+        return "当前版本：—"
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text("偏好设置")
@@ -47,12 +54,25 @@ struct SettingsView: View {
 
             Spacer()
 
-            Button("恢复默认设置") {
-                AppSettings.reset()
-                launchAtLogin = false
-                themeMode = ThemeMode.system.rawValue
-                escToQuit = false
-                quitWhenLastWindowClosed = true
+            HStack(alignment: .center, spacing: 12) {
+                Button("恢复默认设置") {
+                    AppSettings.reset()
+                    launchAtLogin = false
+                    themeMode = ThemeMode.system.rawValue
+                    escToQuit = false
+                    quitWhenLastWindowClosed = true
+                }
+
+                Spacer()
+
+                Text(currentVersionText)
+                    .font(.footnote)
+                    .foregroundColor(.secondary)
+
+                Button("检查更新") {
+                    UpdateManager.shared.checkForUpdate(interactive: true)
+                }
+                .buttonStyle(.borderedProminent)
             }
             .padding(.bottom, 8)
         }
