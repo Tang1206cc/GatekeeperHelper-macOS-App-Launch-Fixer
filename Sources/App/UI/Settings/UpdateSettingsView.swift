@@ -83,6 +83,12 @@ struct UpdateSettingsView: View {
         let checker = UpdateChecker(api: api, preferences: prefs, logger: logger)
         let downloader = UpdateDownloader(logger: logger)
         let installer = UpdateInstaller(logger: logger)
-        return UpdateCoordinator(checker: checker, downloader: downloader, installer: installer, preferences: prefs, logger: logger)
+        return UpdateCoordinator(
+            checker: checker,
+            downloader: downloader,
+            installer: installer,
+            preferences: prefs,
+            logger: logger
+        )
     }
 }
