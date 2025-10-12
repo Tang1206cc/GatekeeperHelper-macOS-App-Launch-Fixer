@@ -1,0 +1,16 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/GatekeeperHelperApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "偏好设置…",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 19
+        }
+      }
+    ]
+  },
+  "version": 1
+}

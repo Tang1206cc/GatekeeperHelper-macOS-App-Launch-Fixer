@@ -1,0 +1,31 @@
+{
+  "" : {
+    "const-values" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.swiftconstvalues",
+    "dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.d",
+    "diagnostics" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.dia",
+    "emit-module-dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary-emit-module.dia",
+    "pch" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.swiftdeps"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/UpdaterHelper/FileOps.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/FileOps.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/FileOps.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/FileOps.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/UpdaterHelper/HelperInstallPlan.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/HelperInstallPlan.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/HelperInstallPlan.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/HelperInstallPlan.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/UpdaterHelper/Relaunch.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/Relaunch.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/Relaunch.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/Relaunch.o"
+  },
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/UpdaterHelper/main.swift" : {
+    "index-unit-output-path" : "/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/main.o"
+  }
+}

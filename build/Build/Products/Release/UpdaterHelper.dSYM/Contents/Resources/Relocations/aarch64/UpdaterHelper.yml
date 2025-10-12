@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Products/Release/UpdaterHelper'
+relocations:     []
+...

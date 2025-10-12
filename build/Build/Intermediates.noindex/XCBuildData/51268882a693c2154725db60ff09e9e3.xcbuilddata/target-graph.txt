@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'GatekeeperHelper' in project 'GatekeeperHelper'
+➜ Explicit dependency on target 'UpdaterHelper' in project 'GatekeeperHelper'
+Target 'UpdaterHelper' in project 'GatekeeperHelper' (no dependencies)

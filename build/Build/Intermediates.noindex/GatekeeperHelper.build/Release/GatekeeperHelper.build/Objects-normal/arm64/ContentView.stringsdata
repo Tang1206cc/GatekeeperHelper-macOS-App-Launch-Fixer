@@ -1,0 +1,144 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "请选择您遇到的 App 启动问题",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "历史记录",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "捐赠作者",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "联系&反馈",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "请选择左侧的问题类型",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 646
+        }
+      },
+      {
+        "comment": "",
+        "key": "部分信息与素材转载于https://foxirj.com及其他网站。GatekeeperHelper开源免费，仅供学习交流，侵权请联系删除。",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 668
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 240
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 295
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 399
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 451
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 503
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看解决方案",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 555
+        }
+      },
+      {
+        "comment": "",
+        "key": "如果你之前使用过“永久禁用”选项，可一键恢复 Gatekeeper：",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 605
+        }
+      },
+      {
+        "comment": "",
+        "key": "恢复 Gatekeeper",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 612
+        }
+      },
+      {
+        "comment": "",
+        "key": "如果这些都没用，请点击：",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 654
+        }
+      },
+      {
+        "comment": "",
+        "key": "关闭 SIP",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 656
+        }
+      }
+    ]
+  },
+  "version": 1
+}

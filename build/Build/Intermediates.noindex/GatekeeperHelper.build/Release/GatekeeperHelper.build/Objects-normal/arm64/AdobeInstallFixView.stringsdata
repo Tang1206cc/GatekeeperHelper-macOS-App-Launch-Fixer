@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/AdobeInstallFixView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "部分信息与素材转载于https://foxirj.com及其他网站。GatekeeperHelper开源免费，仅供学习交流，侵权请联系删除。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方案：安装Adobe软件时报错",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "这可能是由Install文件包内Unix可执行文件的错误所致。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "解决方式如下：",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. 打开用于安装Adobe软件的磁盘映像（dmg）或安装包，找到“Install”文件，选中并右击选择“显示包内容”。\n2. 在包内「Contents-MacOS」找到Install的Unix可执行文件并双击。\n3. 之后就可以正常执行安装了。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开访达",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 46
+        }
+      }
+    ]
+  },
+  "version": 1
+}

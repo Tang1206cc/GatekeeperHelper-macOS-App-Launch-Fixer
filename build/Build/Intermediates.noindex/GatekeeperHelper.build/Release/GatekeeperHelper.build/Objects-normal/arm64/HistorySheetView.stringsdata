@@ -1,0 +1,56 @@
+{
+  "source": "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/GatekeeperHelper/HistorySheetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "最近修复记录",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂无记录",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "仅展示最近 20 条记录",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "修复成功",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "修复失败",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "清空记录",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

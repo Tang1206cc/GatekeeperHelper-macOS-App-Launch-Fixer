@@ -1,0 +1,12 @@
+{
+  "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/UpdaterHelper/FileOps.swift" : {
+    "abi-baseline-json" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper.abi.json",
+    "const-values" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.swiftconstvalues",
+    "dependencies" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.d",
+    "diagnostics" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-primary.dia",
+    "objc-header" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper-Swift.h",
+    "swiftdoc" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper.swiftdoc",
+    "swiftmodule" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper.swiftmodule",
+    "swiftsourceinfo" : "/Users/tangziyao/Documents/GatekeeperHelper_project/GatekeeperHelper/build/Build/Intermediates.noindex/GatekeeperHelper.build/Release/UpdaterHelper.build/Objects-normal/arm64/UpdaterHelper.swiftsourceinfo"
+  }
+}
