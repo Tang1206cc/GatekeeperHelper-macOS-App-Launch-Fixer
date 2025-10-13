@@ -1,1 +1,1 @@
-SHA256 f575297d0cba7ad2ce632e0de9196f0729c4ff4751b7cb3f28b7669f87e561b9 GatekeeperHelper-1.0.5.zip
+SHA256 446bf3f716b08a1b8191b8e38a90081c521d82eb1acc1b02856febe142d31a66 GatekeeperHelper-1.0.6.zip
