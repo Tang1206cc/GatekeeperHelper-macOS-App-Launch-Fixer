@@ -173,7 +173,7 @@ struct SheetWrapperView: View {
                         Divider()
 
                         VStack(alignment: .leading, spacing: 10) {
-                            Label("B站：昵称待定（UID:3632305813850646）「点击可打开」", systemImage: "play.rectangle.fill")
+                            Label("B站：智影逐风（UID:3632305813850646）「点击可打开」", systemImage: "play.rectangle.fill")
                                 .onTapGesture {
                                     if let url = URL(string: "https://b23.tv/t5x24uV") {
                                         NSWorkspace.shared.open(url)
