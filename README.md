@@ -41,5 +41,5 @@
   ```bash
   gh auth login
 
-  开发者：唐梓耀（Tang Ziyao）
-© 2025  All rights reserved.
+  
+开发者：唐梓耀（Tang Ziyao）© 2025  All rights reserved.
