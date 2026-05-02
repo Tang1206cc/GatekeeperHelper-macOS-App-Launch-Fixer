@@ -1,0 +1,12 @@
+# Xcode / Derived
+build/
+DerivedData/
+*.xcuserdatad/
+*.xcworkspace/xcuserdata/
+# macOS
+.DS_Store
+# Logs
+*.log
+.git.backup-*
+# Built app
+GatekeeperHelper.app/
