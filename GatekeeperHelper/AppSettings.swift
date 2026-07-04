@@ -18,6 +18,13 @@ enum ThemeMode: String, CaseIterable, Identifiable {
 }
 
 struct AppSettings {
+    static let autoCheckForUpdatesKey = "autoCheckForUpdates"
+    static let autoCheckForUpdatesDefault = true
+
+    static var shouldAutoCheckForUpdates: Bool {
+        UserDefaults.standard.object(forKey: autoCheckForUpdatesKey) as? Bool ?? autoCheckForUpdatesDefault
+    }
+
     static func applyLaunchAtLogin(_ enabled: Bool) {
         if #available(macOS 13.0, *) {
             do {

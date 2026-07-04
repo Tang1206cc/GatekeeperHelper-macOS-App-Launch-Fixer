@@ -9,6 +9,7 @@ struct GitHubRelease: Decodable {
     let tag_name: String
     let draft: Bool
     let prerelease: Bool
+    let body: String?
     let assets: [GitHubAsset]
 }
 

@@ -12,6 +12,7 @@ struct SettingsView: View {
     @AppStorage("themeMode") private var themeMode = ThemeMode.system.rawValue
     @AppStorage("escToQuit") private var escToQuit = false
     @AppStorage("quitWhenLastWindowClosed") private var quitWhenLastWindowClosed = true
+    @AppStorage(AppSettings.autoCheckForUpdatesKey) private var autoCheckForUpdates = AppSettings.autoCheckForUpdatesDefault
 
     private var currentVersionText: String {
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String, !version.isEmpty {
@@ -61,18 +62,25 @@ struct SettingsView: View {
                     themeMode = ThemeMode.system.rawValue
                     escToQuit = false
                     quitWhenLastWindowClosed = true
+                    autoCheckForUpdates = AppSettings.autoCheckForUpdatesDefault
                 }
 
                 Spacer()
 
-                Text(currentVersionText)
-                    .font(.footnote)
-                    .foregroundColor(.secondary)
+                VStack(alignment: .trailing, spacing: 8) {
+                    Toggle("自动检查更新", isOn: $autoCheckForUpdates)
 
-                Button("检查更新") {
-                    UpdateManager.shared.checkForUpdate(interactive: true)
+                    HStack(alignment: .center, spacing: 12) {
+                        Text(currentVersionText)
+                            .font(.footnote)
+                            .foregroundColor(.secondary)
+
+                        Button("检查更新") {
+                            UpdateManager.shared.checkForUpdate(interactive: true)
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
                 }
-                .buttonStyle(.borderedProminent)
             }
             .padding(.bottom, 8)
         }

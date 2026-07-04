@@ -65,6 +65,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             ]
             localizeMenu(menu: mainMenu, translations: translations)
         }
+
+        if AppSettings.shouldAutoCheckForUpdates {
+            UpdateManager.shared.checkForUpdate(interactive: false)
+        }
     }
 
     // 递归翻译菜单与子菜单
