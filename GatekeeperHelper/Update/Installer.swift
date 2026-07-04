@@ -36,6 +36,7 @@ enum Installer {
         }
 
         let tempDirectory = URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true)
+        let detachedHelperURL = tempDirectory.appendingPathComponent("UpdaterHelper-\(UUID().uuidString)")
         let planURL = tempDirectory.appendingPathComponent("GatekeeperHelper-InstallPlan-\(UUID().uuidString).json")
         let backupDirectory = tempDirectory.appendingPathComponent("GatekeeperHelperBackups", isDirectory: true)
         let logFileURL = tempDirectory.appendingPathComponent("GatekeeperHelperUpdater.log")
@@ -53,10 +54,23 @@ enum Installer {
         let data = try encoder.encode(plan)
         try data.write(to: planURL, options: .atomic)
 
+        try FileManager.default.copyItem(at: helperURL, to: detachedHelperURL)
+        guard FileManager.default.isExecutableFile(atPath: detachedHelperURL.path) else {
+            throw NSError(domain: "Installer", code: 0, userInfo: [NSLocalizedDescriptionKey: "无法启动更新助手"])
+        }
+
+        let launchLog = "[\(ISO8601DateFormatter().string(from: Date()))] Launching detached helper: \(detachedHelperURL.path)\n"
+        try launchLog.data(using: .utf8)?.write(to: logFileURL, options: .atomic)
+        let logHandle = try FileHandle(forWritingTo: logFileURL)
+        try logHandle.seekToEnd()
+
         let process = Process()
-        process.executableURL = helperURL
-        process.arguments = ["--plan", planURL.path]
+        process.executableURL = URL(fileURLWithPath: "/usr/bin/nohup")
+        process.arguments = [detachedHelperURL.path, "--plan", planURL.path]
+        process.standardOutput = logHandle
+        process.standardError = logHandle
         try process.run()
+        try? logHandle.close()
 
         NSApp.terminate(nil)
     }

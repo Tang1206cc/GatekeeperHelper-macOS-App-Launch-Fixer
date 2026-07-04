@@ -36,20 +36,32 @@ func readPlan() throws -> InstallPlan {
     return try JSONDecoder().decode(InstallPlan.self, from: data)
 }
 
+var currentLogFile: String?
+
 do {
     let plan = try readPlan()
+    currentLogFile = plan.logFile
     log("Helper started.", to: plan.logFile)
+    log("Plan new app: \(plan.newAppPath)", to: plan.logFile)
+    log("Plan target app: \(plan.targetAppPath)", to: plan.logFile)
 
     // 等待主程序退出
     if !plan.relaunchBundleID.isEmpty {
+        log("Waiting for app to quit: \(plan.relaunchBundleID)", to: plan.logFile)
         waitUntilAppQuit(bundleID: plan.relaunchBundleID, timeout: 60)
     }
 
     // 备份旧版
-    let _ = try backupExistingApp(targetPath: plan.targetAppPath, backupDir: plan.backupDir)
+    if let backupPath = try backupExistingApp(targetPath: plan.targetAppPath, backupDir: plan.backupDir) {
+        log("Backed up existing app to: \(backupPath)", to: plan.logFile)
+    } else {
+        log("No existing app found at target path.", to: plan.logFile)
+    }
 
     // 覆盖替换
+    log("Moving new app into target path.", to: plan.logFile)
     try moveItem(from: plan.newAppPath, to: plan.targetAppPath)
+    log("Move finished.", to: plan.logFile)
 
     // 可选：去隔离
     if plan.removeQuarantine {
@@ -59,7 +71,8 @@ do {
 
     // 重启主应用
     if !plan.relaunchBundleID.isEmpty {
-        relaunch(bundleID: plan.relaunchBundleID)
+        log("Relaunching app.", to: plan.logFile)
+        relaunch(appPath: plan.targetAppPath, bundleID: plan.relaunchBundleID)
     }
 
     log("Helper finished successfully.", to: plan.logFile)
@@ -67,6 +80,9 @@ do {
 } catch {
     // 简单失败日志
     let msg = "Helper failed: \(error)"
+    if let currentLogFile {
+        log(msg, to: currentLogFile)
+    }
     fputs(msg + "\n", stderr)
     exit(1)
 }
