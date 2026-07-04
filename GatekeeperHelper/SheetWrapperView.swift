@@ -181,9 +181,9 @@ struct SheetWrapperView: View {
                                 }//链接到bilibili个人主页
                             Label("邮箱：1767707905@qq.com", systemImage: "envelope")
                             Label("QQ 讨论群：850780538", systemImage: "message")
-                            Label("GitHub 项目仓库：https://github.com/Tang1206cc/GatekeeperHelper", systemImage: "link")
+                            Label("GitHub 项目仓库：https://github.com/Tang1206cc/GatekeeperHelper-macOS-App-Launch-Fixer", systemImage: "link")
                                 .onTapGesture {
-                                    if let url = URL(string: "https://github.com/Tang1206cc/GatekeeperHelper") {
+                                    if let url = URL(string: "https://github.com/Tang1206cc/GatekeeperHelper-macOS-App-Launch-Fixer") {
                                         NSWorkspace.shared.open(url)
                                     }
                                 }//链接到GitHub对应仓库
