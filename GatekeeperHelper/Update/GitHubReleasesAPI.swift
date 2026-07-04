@@ -14,7 +14,7 @@ struct GitHubRelease: Decodable {
 
 enum GitHubAPI {
     private static let owner = "Tang1206cc"
-    private static let repo = "GatekeeperHelper"
+    private static let repo = "GatekeeperHelper-macOS-App-Launch-Fixer"
 
     static func fetchLatestRelease(
         usePrerelease: Bool = false,
